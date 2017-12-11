@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    font-family: monospace;
+    max-width: 1200px;
+	margin:auto;
+}
+
+#main-menu {
+		background-color: #FFFFFF;
+		text-align: center;
+		
+		border-bottom: 1px solid #dddddd;
+}
+#main-menu a {
+		font-size: 23px;
+		color: #737373;
+		text-decoration: none;
+		padding: 34px;
+}
+img {
+	max-width: 300px;
+}
+#main-menu 
+	a:hover {
+		color: pink;
+
+}
+.hover a:hover {
+	opacity: 0.8;
+}
+.hover img:hover {
+	border-radius: 50%;
+}
+.main-content1 {
+	border: 0px;
+	margin: 100px;
+}
+.main-content1 div {
+	border: 0px;
+	float: left;
+	margin: 16px;
+}	
+.main-content2 {
+	border: 0px;
+	margin-top: 0px;
+	margin: 100px;
+}
+.main-content2 div {
+	border: 0px;
+	float: left;
+	margin-top: 0px;
+	margin: 16px;
+}
+.main-content3 {
+	border: 0px;
+	margin-top: 0px;
+	margin: 100px;
+}
+.main-content3 div {
+	border: 0px;
+	float: left;
+	margin-top: 0px;
+	margin: 16px;
+}	
+.main-content4 {
+	border: 0px;
+	margin-top: 0px;
+	margin: 100px;
+}
+.main-content4 div {
+	border: 0px;
+	float: left;
+	margin-top: 0px;
+	margin: 16px;
+}
+.h1 {
+	border: 0;
+	margin-top: 100px;
+}		
+.h1 h1 {
+	text-align: center;
+	color: black;
+}
