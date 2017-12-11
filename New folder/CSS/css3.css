@@ -1,0 +1,16 @@
+.trangchu {
+	font-size: 20px;
+	text-align: center;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    color: blue;
+}
+a:hover {
+    color: hotpink;
+}
