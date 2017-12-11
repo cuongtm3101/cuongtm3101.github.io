@@ -1,0 +1,19 @@
+h2, p {
+	text-align: center;
+}
+h2{
+	font-size: 35px;
+	color: red
+}
+b {
+	font-size: 20px;
+	color: red
+}
+img {
+	display: block;
+	margin: auto;
+	max-width: 500px;
+}
+img:hover {
+	opacity: 0.5;
+}
