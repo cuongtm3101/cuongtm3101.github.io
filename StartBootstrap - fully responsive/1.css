@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+ul.nav.navbar-nav.float-sm-right.text-xs-left.menuright {
+	font-size: 14px;
+	font-weight: 700;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+.menutren {
+	border-bottom: 1px solid #ffffff4d;
+}
+.banner {
+	background-image: url('img/1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.khoithongtin {
+	width: 50%;
+	margin: auto;
+	margin-top: 21%;
+	color: white;
+}
+.khoithongtin .tieudeto {
+	font-weight: 700;
+	font-size: 64px;
+	display: block;
+	padding-bottom: 20px;
+	position: relative;
+}
+.trangtri {
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50px;
+	background-color: #f05f40;
+}
+.khoithongtin p {
+	font-size: 20px;
+	font-weight: lighter;
+}
+nav.navbar.navbar-dark.bg-faded.navbar-fixed-top.menutren {
+	background-color: transparent;
+}
+a.btn.btn-secondary.nutan {
+	background-color: #f05f40;
+	color: white;
+	border-radius: 28px;
+	padding: 18px 27px;
+	border: 0px;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 20px;
+	transition: 0.4s;
+}
+a.btn.btn-secondary.nutan:hover {
+	background-color: #ff502b;
+}
+a.navbar-brand.logo:hover {
+	color:#f05f40 ;
+	transition: 0.4s;
+}
+.phan2 {
+	width: 100%;
+	height: 50%;
+	background-color: #f05f40;
+	color: white;
+}
+.motkhoithongtin2 {
+	color: white;
+	margin-top: 6%;
+}
+.tieudeto2 {
+	font-size: 31px !important;
+}
+.phan3 {
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	color: black;
+}
+.motkhoithongtin3 {
+	color: black;
+	margin-top: 6%;
+}
+.tieudeto3 {
+	font-size: 31px !important;
+	font-weight: 500 !important;
+}
+.phan3 .container.mt-3 .row i {
+	color: #f05f40;
+	margin-bottom: 20px;
+}
+.phan3 .container.mt-3 .row p {
+	margin-top: 20px;
+	color: #6c757d;
+}
+.phan4 .container-fluid .row .col-sm-4 {
+	padding: 0;
+}
+.phan4 .container-fluid .row .col-sm-4 img{
+	width: 100%;
+}
+.khoisp {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.khoisp .khoitensp {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(241, 95, 65, 0.43);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	transition: 0.4s;
+}
+.khoisp .khoitensp .tensp {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	margin-top: 25%;
+	text-align: center;
+	z-index: 3;
+	transform: scale(0);
+	transition: 0.4s;
+}
+.khoisp:hover .khoitensp {
+	opacity: 1;
+}
+.khoisp .khoitensp:hover .tensp {
+	transform: scale(1);
+	transition-delay: 0.1s;
+}
+.motkhoithongtin5 {
+	background-color:#212529; 
+	margin: auto;
+	margin-top: 5%;
+}
+.tieudeto5 {
+	font-size: 31px !important;
+	font-weight: 500 !important;
+}
+.logo {
+	transition: 0.4s;
+}
+.logo.maucam {
+	color:#f05f40;
+}
+.navbar.navbar-dark.bg-faded.navbar-fixed-top.menutren{
+	transition: 0.4s;
+}
+.navbar.navbar-dark.bg-faded.navbar-fixed-top.menutren.nentrang {
+	background-color: white;
+}
+@media (max-width: 576px) {
+	*{}
+
+.phan3 .col-sm-3.text-xs-center {
+    margin-bottom: 26px;
+    width: 50%;
+}
+.text-xs-center.khoithongtin {
+    width: 70%;
+}
+h2.tieudeto.display-4.tieudeto2 {
+	margin-top: 20%;
+}
+h2.tieudeto.display-4.tieudeto3 {
+	margin-top: 20%;
+}
+h2.tieudeto.display-4.tieudeto5 {
+	margin-top: 20%;
+}
+.phan3 {
+	height: auto;
+	padding-bottom: 20%;
+}
+
+	button.navbar-toggler.hidden-sm-up.float-xs-right.nutdieuhuong {
+		background-color: gainsboro;
+	}
+	button.navbar-toggler.hidden-sm-up.float-xs-right.nutdieuhuong.collapsed {
+		background-color: gainsboro;
+	}
+	a.navbar-brand.logo {
+		color: orange;
+	}
+	ul.nav.navbar-nav.float-sm-right.text-xs-left.menuright a {
+		color: black;
+	}
+	nav.navbar.navbar-dark.bg-faded.navbar-fixed-top.menutren {
+		background-color: white;
+	}
+	ul.nav.navbar-nav.float-sm-right.text-xs-left.menuright a {
+		color: black;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	a.navbar-brand.logo {
+		font-size: 17px;
+		color: #f05f40;
+		transition: 0.4s;
+	}
+	a.navbar-brand.logo:hover {
+		color:#f05f40 ;
+	}
+	h2.tieudeto.display-4 {
+		font-size: 40px;
+		margin-top: 65%;
+	}
+	.khoithongtin p {
+		font-size: 15px;
+	}
+}
